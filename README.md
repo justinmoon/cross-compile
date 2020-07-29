@@ -2,7 +2,7 @@
 
 - `apt install mingw-w64`
 - `rustup target add i686-pc-windows-gnu`
-`rustup target add x86_64-pc-windows-gnu`
+- `rustup target add x86_64-pc-windows-gnu`
 - Add the following to your [cargo config](https://doc.rust-lang.org/cargo/reference/config.html#hierarchical-structure):
 ```
 [target.x86_64-pc-windows-gnu]
